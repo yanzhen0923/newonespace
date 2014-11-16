@@ -1,0 +1,338 @@
+*{
+	/*全局字体*/
+font-family: "Microsoft YaHei" ! important;
+}
+a:link {color: blue; text-decoration:none;} 
+a:active:{color: red; }    
+a:visited {color: blue;text-decoration:none;} 
+a:hover {
+	/*color: red;text-decoration:none;*/
+	color: red;
+	/*transition:border linear .1s,box-shadow linear .1s;*/
+ 	-moz-transition:border linear .2s,-moz-box-shadow linear .3s;
+ 	-webkit-transition:border linear .2s,-webkit-box-shadow linear .3s;
+ 	outline:none;
+ 	border-color:rgba(33,89,250,.75);
+ 	box-shadow:0 0 8px rgba(33,89,250,.5);
+ 	-moz-box-shadow:0 0 8px rgba(33,89,250,.5);
+ 	-webkit-box-shadow:0 0 8px rgba(33,89,250,3);
+}
+
+#preview{
+	width:240px;
+	height:180px;
+	border:1px solid #000;
+	overflow:hidden;
+}
+
+#imghead {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
+}
+
+hr{
+	/*分割线*/
+	height: 10px;
+	margin-right: 200px;
+	border: none;
+	background:lightblue;
+}
+.bgcenter{
+	/*最后绿条背景*/
+	margin-top: 50px;
+	margin-left: 165px;
+	width: 1000px;
+	height: auto;
+	text-align: center;
+	background:lightgreen;
+}
+em{
+	font-style: normal;
+	vertical-align: middle;
+}
+.center{
+	text-align: center;
+	margin-top: 20px;
+}
+.verify{
+	margin-top:6px;
+	margin-left:2px;
+}
+.verifyDiv{
+	margin-top:15px;
+}
+
+.form1{
+	margin-left:300px;
+}
+
+.newsContainer{
+	width:940px;
+	height:auto;
+}
+.avatar{
+	height:50px;
+    width:50px;
+    vertical-align:middle;
+}
+.newsText{
+	float:left;
+}
+
+.left{
+	float:left;
+}
+
+.leftPublic{
+	margin-left: 200px;
+	min-height:500px;
+	margin-bottom:100px;
+	width:924px;
+}
+.leftBar{
+	float:left;
+	min-height:500px;
+	max-height:500px;
+	min-width:260px;
+}
+.rightAlbum{
+	float:right;
+	min-width:640px;
+	min-height:500px;
+	max-height:500px;
+
+}
+.inputFile{
+	width:150px;
+}
+
+.albumContainer{
+margin-left:20px;
+margin-top:10px;
+min-width:500px;
+min-height:160px;
+}
+.albumPreview{
+	float:left;
+	min-width:150px;
+	min-height:150px;
+}
+.albumName{
+	float:right;
+	margin-top:55px;
+	min-width:450px;
+}
+.albumBody{
+	width:720px;
+	height:720px;
+	display: table-cell; 
+	vertical-align:middle; 
+	/*设置水平居中*/ 
+	text-align:center; 
+	/* 针对IE的Hack */ 
+	*display: block; 
+}
+.albumBody img { 
+/*设置图片垂直居中*/ 
+vertical-align:middle; 
+} 
+.albumParent{
+	margin-left:105px;
+}
+
+.albumDes{
+	margin-left:105px;
+	margin-bottom:20px;
+	max-width:750px;
+	text-align:center;
+}
+.albumNav{
+	text-align:center;
+	max-width:925px;
+}
+
+.top{
+	float:top;
+}
+
+.newsTime{
+	width:930px;
+	text-align:right;
+}
+.form{
+	margin-top: 60px;
+	margin-left: 520px;
+	width:400px;
+}
+
+.submitButton1,.submitButton2{
+	background-image:url(img/button.png);
+    color:black;
+    margin-top: 5px;
+	margin-bottom: 5px;
+	width: 50px;
+	margin-left: 100px;
+}
+
+.submitButton2{
+	margin-left:0px;
+}
+
+.normalSubmit{
+	background-image:url(img/button.png);
+}
+
+.submitButton1:hover,.submitButton2:hover,.normalSubmit:hover{
+	transition:border linear .2s,box-shadow linear .5s;
+ 	-moz-transition:border linear .2s,-moz-box-shadow linear .5s;
+ 	-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+ 	outline:none;
+ 	border-color:rgba(33,89,250,.75);
+ 	box-shadow:0 0 8px rgba(33,89,250,.5);
+ 	-moz-box-shadow:0 0 8px rgba(33,89,250,.5);
+ 	-webkit-box-shadow:0 0 8px rgba(33,89,250,3);
+}
+
+
+.formText1{
+	width: 200px;
+	height: 20px;
+	background-color: rgb(253,252,202);
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.formText2{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: auto;
+	 -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius:15px;
+}
+
+.formText3{
+	width: 300px;
+	height: 60px;
+	background-color: rgb(253,252,202);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	 -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius:15px;
+}
+
+.formText1:focus,.formText2:focus,.formText3:focus{
+	transition:border linear .2s,box-shadow linear .5s;
+ 	-moz-transition:border linear .2s,-moz-box-shadow linear .5s;
+ 	-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+ 	outline:none;
+ 	border-color:rgba(33,89,250,.75);
+ 	box-shadow:0 0 8px rgba(33,89,250,.5);
+ 	-moz-box-shadow:0 0 8px rgba(33,89,250,.5);
+ 	-webkit-box-shadow:0 0 8px rgba(33,89,250,3);
+}
+
+
+label{
+	width: 100px;
+	font-size: 18px;
+	text-align: left;
+	display: inline-block;
+	font-weight:bold;
+}
+
+
+.topHeader{
+	margin-left: 165px;
+	width: 1000px;
+}
+
+.navLink1 a,.navLink2 a,.navLink3 a,.navLink4 a,.navLink5 a,.navLink6 a,.navLink7 a,.navLink8 a,.navLink9 a,.navLink10 a{
+	float:left;
+	margin-left:0px;
+	margin-right:3px;
+	display:block;
+	width:100px;
+	height:50px;
+	cursor:hand;
+}
+.navLink1 a{
+	background:url(img/home1.png) no-repeat;
+}
+.navLink1 a:hover{
+	background:url(img/home2.png) no-repeat;
+}
+.navLink2 a{
+	background:url(img/message1.png) no-repeat;
+}
+.navLink2 a:hover{
+	background:url(img/message2.png) no-repeat;
+}
+.navLink3 a{
+	background:url(img/friends1.png) no-repeat;
+}
+.navLink3 a:hover{
+	background:url(img/friends2.png) no-repeat;
+}
+.navLink4 a{
+	background:url(img/settings1.png) no-repeat;
+}
+.navLink4 a:hover{
+	background:url(img/settings2.png) no-repeat;
+}
+.navLink5 a{
+	background:url(img/logout1.png) no-repeat;
+}
+.navLink5 a:hover{
+	background:url(img/logout2.png) no-repeat;
+}
+.navLink6 a{
+	background:url(img/about1.png) no-repeat;
+}
+.navLink6 a:hover{
+	background:url(img/about2.png) no-repeat;
+}
+.navLink7 a{
+	background:url(img/search1.png) no-repeat;
+}
+.navLink7 a:hover{
+	background:url(img/search2.png) no-repeat;
+}
+.navLink8 a{
+	background:url(img/news1.png) no-repeat;
+}
+.navLink8 a:hover{
+	background:url(img/news2.png) no-repeat;
+}
+.navLink9 a{
+	background:url(img/personal1.png) no-repeat;
+}
+.navLink9 a:hover{
+	background:url(img/personal2.png) no-repeat;
+}
+.navLink10 a{
+	background:url(img/album1.png) no-repeat;
+}
+.navLink10 a:hover{
+	background:url(img/album2.png) no-repeat;
+}
+.public{
+	margin-left: 200px;
+}
+
+.radius2{
+	margin:0px;
+}
+
+.radius2:focus{
+	background-color: rgb(253,252,202);
+	transition:border linear .2s,box-shadow linear .5s;
+ 	-moz-transition:border linear .2s,-moz-box-shadow linear .5s;
+ 	-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+ 	outline:none;
+ 	border-color:rgba(33,89,250,.75);
+ 	box-shadow:0 0 8px rgba(33,89,250,.5);
+ 	-moz-box-shadow:0 0 8px rgba(33,89,250,.5);
+ 	-webkit-box-shadow:0 0 8px rgba(33,89,250,3);
+}

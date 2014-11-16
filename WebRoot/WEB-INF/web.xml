@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>servlets.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>NewsServlet</servlet-name>
+    <servlet-class>servlets.NewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadAvatarServlet</servlet-name>
+    <servlet-class>servlets.UploadAvatarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddFriendsServlet</servlet-name>
+    <servlet-class>servlets.AddFriendsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteFriendsServlet</servlet-name>
+    <servlet-class>servlets.DeleteFriendsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MessageServlet</servlet-name>
+    <servlet-class>servlets.MessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SettingsServlet</servlet-name>
+    <servlet-class>servlets.SettingsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProcessAddFriendsServlet</servlet-name>
+    <servlet-class>servlets.ProcessAddFriendsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProcessMessageServlet</servlet-name>
+    <servlet-class>servlets.ProcessMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadPhotoServlet</servlet-name>
+    <servlet-class>servlets.UploadPhotoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateAlbumServlet</servlet-name>
+    <servlet-class>servlets.CreateAlbumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteNewsServlet</servlet-name>
+    <servlet-class>servlets.DeleteNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteAlbumServlet</servlet-name>
+    <servlet-class>servlets.DeleteAlbumServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsServlet</servlet-name>
+    <url-pattern>/servlet/news</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadAvatarServlet</servlet-name>
+    <url-pattern>/servlet/uploadAvatar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddFriendsServlet</servlet-name>
+    <url-pattern>/servlet/addFriends</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteFriendsServlet</servlet-name>
+    <url-pattern>/servlet/deleteFriends</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageServlet</servlet-name>
+    <url-pattern>/servlet/message</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SettingsServlet</servlet-name>
+    <url-pattern>/servlet/settings</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProcessAddFriendsServlet</servlet-name>
+    <url-pattern>/servlet/processAddFriends</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProcessMessageServlet</servlet-name>
+    <url-pattern>/servlet/processMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadPhotoServlet</servlet-name>
+    <url-pattern>/servlet/uploadPhoto</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateAlbumServlet</servlet-name>
+    <url-pattern>/servlet/createAlbum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteNewsServlet</servlet-name>
+    <url-pattern>/servlet/deleteNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteAlbumServlet</servlet-name>
+    <url-pattern>/servlet/deleteAlbum</url-pattern>
+  </servlet-mapping>
+  
+  <context-param> 
+    <description>Location to store uploaded file</description> 
+    <param-name>file-upload</param-name>
+    <param-value>
+         avatar/
+     </param-value> 
+	</context-param>
+	
+</web-app>
